@@ -1,0 +1,34 @@
+-generator config settings
+    -CR
+    -combat archetypes: tank, glass cannon, etc.
+    -ability style: martial, magic, or mixed
+    -magic type:
+    -attack mode: ranged, melee, mixed
+    -elemental theme: air, water, earth, fire, none
+    -individual toggles:
+        -leader
+        -legendary
+        -magic items
+-generation functions
+    -number of different abilities, actions, and reactions depends on difficulty
+        -higher difficulty makes reactions and bonus actions more likely to be generated
+    -abilities tagged with fitting setting options
+    -assigns hp and ac based on archetype and cr
+        -ac range determined by various settings
+            -combat archetype has highest influence
+        -base hp defined by difficulty
+        -base modified by ac
+    -stats determined by mixture of settings
+    -skills determined by combat archetype and attack mode
+    -attack generation:
+        -all characters have at least 1 melee attack
+        -damage dice depend mostly on combat archetype
+        -bonuses depend mostly on difficulty level
+    -spell generation:
+        -base: 1 combat spell, 1 utility spell
+            -numbers change based on various settings
+        -heavily weighted by tags
+    -magic items:
+        -implemented as list of magic items held, rather than as abilities or actions due to complexity of many items
+-import data into monster maker to modify manually (long shot, probably would need to contact monster maker dev)
+-either find file of srd data, or make web crawler to collect it
