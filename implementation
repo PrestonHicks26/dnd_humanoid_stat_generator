@@ -1,0 +1,37 @@
+-MVC Design Pattern
+-Controllers
+  -generator controller
+  -external requests controller
+-Models
+  -statblock
+  -npc traits
+-Data
+  -structure:
+    -json
+    -[{trait: '',
+      tags: [
+
+      ]},]
+  -data files:
+    -monster types (ie. Beast, Undead, etc)
+    -armors
+    -weapons
+    -skills
+    -conditions
+    -src abilities
+    -src actions
+    -src bonus actions
+    -src reactions
+    -src spells
+    -src legendary reactions
+    -src lair actions
+    -custom abilities
+    -custom actions
+    -custom bonus actions
+    -custom reactions
+    -custom spells
+    -custom legendary reactions
+    -custom lair actions
+    -villain actions (action oriented monsters)
+  
+
