@@ -8,7 +8,10 @@
     -individual toggles:
         -leader
         -legendary
+        -action oriented
         -magic items
+            -number
+            -rarity
 -generation functions
     -number of different abilities, actions, and reactions depends on difficulty
         -higher difficulty makes reactions and bonus actions more likely to be generated
@@ -31,4 +34,5 @@
     -magic items:
         -implemented as list of magic items held, rather than as abilities or actions due to complexity of many items
 -import data into monster maker to modify manually (long shot, probably would need to contact monster maker dev)
+-call character generator if any have public api, and use generator settings to generate a character alongside statblock
 -either find file of srd data, or make web crawler to collect it
