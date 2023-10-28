@@ -1,6 +1,7 @@
 -MVC Design Pattern
 -Controllers
   -generator controller
+  -export controller
   -external requests controller
 -Models
   -statblock
@@ -11,10 +12,14 @@
 -Data
   -structure:
     -json
-    -[{trait: '',
-      tags: [
-
-      ]},]
+    -[{name: '',
+      origin: '',
+        tags: [
+              ]
+      },
+    ]
+      
+  - mark origin (src, third party, custom, wizardsNonSrc) in trait object properties
   -data files:
     -monster types (ie. Beast, Undead, etc)
     -armors
