@@ -5,6 +5,7 @@
   -external requests controller
 -Models
   -statblock
+  -settings
   -npc traits
 -Views
   -Main view
