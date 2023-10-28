@@ -5,6 +5,9 @@
 -Models
   -statblock
   -npc traits
+-Views
+  -Main view
+  -Export statblock
 -Data
   -structure:
     -json
