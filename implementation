@@ -26,20 +26,13 @@
     -weapons
     -skills
     -conditions
-    -src abilities
-    -src actions
-    -src bonus actions
-    -src reactions
-    -src spells
-    -src legendary reactions
-    -src lair actions
-    -custom abilities
-    -custom actions
-    -custom bonus actions
-    -custom reactions
-    -custom spells
-    -custom legendary reactions
-    -custom lair actions
+    -abilities
+    -actions
+    -bonus actions
+    -reactions
+    -spells
+    -legendary reactions
+    -lair actions
     -villain actions (action oriented monsters)
   
 
