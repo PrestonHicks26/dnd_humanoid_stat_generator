@@ -34,6 +34,9 @@
         -heavily weighted by tags
     -magic items:
         -implemented as list of magic items held, rather than as abilities or actions due to complexity of many items
+    -export character
+        -export as image
+        -export as save file
 -import data into monster maker to modify manually (long shot, probably would need to contact monster maker dev)
 -call character generator if any have public api, and use generator settings to generate a character alongside statblock
 -either find file of srd data, or make web crawler to collect it
