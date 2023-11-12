@@ -6,6 +6,7 @@
   -external requests controller
 -Models
   -statblock
+    - contains logic balancing difficulty of generated statblock
   -settings
   -npc traits
   -model for each aspect of statblock generation
