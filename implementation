@@ -7,6 +7,10 @@
 -Models
   -statblock
     - contains logic balancing difficulty of generated statblock
+    - generator has a 'point' budget based on CR
+      - settings determine how many 'points' are allocated to each part of the statblock
+        - ex. 'mixed' statblock has even distribution of points to spend on spells and on abilities, 'magic' statblock has larger share of point to spend on spells
+      - elements can have more or fewer points, meaning statblock may have a small number of powerful elements or large number of weaker elements
   -settings
   -npc traits
   -model for each aspect of statblock generation
